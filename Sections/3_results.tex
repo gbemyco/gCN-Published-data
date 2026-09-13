@@ -1,0 +1,212 @@
+\subsection{Structural stability of g-C$_3$N$_4$ monolayer}
+We begin our discussion with the $2 \times 2$ supercell of the flat heptazine monolayer, constructed from its unit cell ($a=b=7.1~\text{\AA}$). Upon geometry relaxation using the PBE functional, the planar configuration persisted as an in-plane heptazine network with supercell lattice constants of $a = b = 14.2$~\text{\AA} (Fig.\ \ref{fig:Fig2}a), consistent with previous theoretical work.\cite{Gao2017TheStudy,Wu2014TheNitride}
+However, the optimized flat model is an unstable stationary point.
+Displacements in the positive and negative $z$ directions are symmetry equivalent so that the $z$ components of calculated forces remain exactly zero even though 
+out-of-plane distortion lowers the energy.
+A series of controlled out-of-plane perturbations was therefore introduced to the planar geometry as shown in Fig.\ \ref{fig:Fig1} to systematically search for lower-energy configurations. Each of these perturbed structures was subsequently relaxed to yield buckled configurations lower in energy than the planar reference (Model 1), as summarized in Table S1. 
+Among the corrugated structures considered, Model 4 (defined by alternating clockwise and anti-clockwise atomic shifts in the pattern indicated in Fig.\ \ref{fig:Fig1}) emerged as the most stable, with the supercell about 2.9 eV lower in energy than the flat configuration at the PBE level. This energetic preference was consistent across other tested exchange-correlation functionals (r$^2$SCAN and HSE06), providing strong evidence that the corrugated model offers the most realistic description of the ground state of single-layer heptazine-based g-C$_3$N$_4$. As shown in Fig.\ \ref{fig:Fig2}b, the optimized buckled configuration (Model 4)
+was adopted as the representative corrugated model for heptazine monolayer in our study. As compared to the planar sheet (Fig.\ \ref{fig:Fig2}a), the buckled structure relaxed to a reduced lattice constant of 13.9~\text{\AA} with a buckling height of 1.35~\text{\AA}, consistent with other studies.\cite{Gao2020CorrugationStudies,Mridha2025UsingG-C3N4, Liu2020StructuralInvestigation}. 
+Analysis of the structure after relaxation revealed that the planar model retained elongated bridge N-C bonds ($\sim1.47$~\text{\AA}), whereas the buckled structure allowed these bonds to contract slightly to $\sim1.42$~\text{\AA}.
+The remaining N-C bonds increased slightly from 1.33 to $\sim1.35$~\text{\AA}, reflecting redistribution of local strain. 
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=5.6in]{Figures/Fig2.pdf}
+ \caption{Relaxed 2x2 supercell of (a) planar and (b) buckled heptazine-based g-C$_3$N$_4$ monolayers.} 
+  \label{fig:Fig2} 
+\end{figure*}
+
+Note that the energy difference between our Model 4 and the flat Model 1 is significantly larger than the differences found by Mridha \textit{et al.}\cite{,Mridha2025UsingG-C3N4}
+The periodicity of the single heptazine cell used by this earlier work limits
+the structures that can be found by their phonon-following approach to be of our Model 2 type (c.f.\ Fig.\ \ref{fig:Fig1}).
+
+The shortening of the bridging C-N bonds upon buckling suggests buckling relieves steric hinderance between lone pairs of non-bonded nitrogens on the heptazine edges.  This was investigated briefly by examining the 
+potential energy profile of two heptazine molecules (C$_6$N$_7$H$_3$) brought together edge to edge in a constrained relaxation, controlling the nearest intermolecular N-N distance.
+Increasing the N-N distance from the 2.4~\AA\ found in the flat structure to the 2.7~\AA\ of the buckled geometry decreased the total energy by 0.43~eV at the MP2/def2-SVP level.  As there are twelve such ``intermolecular'' N-N pairs in heptazine g-C$_3$N$_4$, this represents a significant reduction in energy through relief of these clashing electron-rich atoms.  
+Although there will be some contribution from different levels of theory [MP2 versus DFT with PBE-D3(BJ)], that the total reduction of energy upon buckling is significantly less than $12\times 0.43$~eV suggests that strain within the structure on buckling limits the distortion.
+
+Our Model 4 structure exhibits antiphase distortions 
+(i.e.\ alternating distortion directions) along the $\langle 10\bar{1}0\rangle$
+and $\langle 01\bar{1}0\rangle$ directions.  This suggests energetic coupling 
+between distortions similar to antiferroelectric coupling in ionic crystals.
+Such an interpretation would make the distortions frustrated on the hexagonal 
+lattice of g-C$_3$N$_4$, as the symmetry-equivalent $\langle \bar{1}100\rangle$ direction cannot simultaneously exhibit antiphase ordering in this finite
+$2 \times 2$ instantiation of the structure.  Thus one may expect significant 
+dynamical fluctuations of the out-of-plane distortion structure in real g-C$_3$N$_4$ crystals.
+
+Our findings further support earlier reports\cite{zhao2021NewNitrideb,Mortazavi2025AMonolayers} that corrugated structures resemble the flat g-C$_3$N$_4$ model (Fig.\ \ref{fig:Fig2}) when viewed from above the basal plane, which led to the widely used flat (metastable) $P\bar{6}m2$ model in previous theoretical studies to interpret experimental data. However, having established the buckled configuration as the true energy minimum for the single-layer heptazine model, we proceed to examine the interlayer interactions and stacking registries of these corrugated sheets. The motivation to extend this structural investigation arises from experimental observations showing that exfoliated g-C$_3$N$_4$ nanosheets often retain interlayer spacings corresponding to the (0002) reflection in X-ray diffraction patterns. Moreover, while the precise interlayer registry of heptazine-based g-C$_3$N$_4$ remains unresolved, the stacking configuration cannot be neglected when accurately describing the synthesized heptazine sample. Therefore, in the following section, we systematically explore different stacking possibilities of heptazine-based g-C$_3$N$_4$ using first-principles theoretical calculations.
+
+\subsection{Stacking motifs in bulk g-C$_3$N$_4$}
+Similar to graphite, g-C$_3$N$_4$ consists of 2-dimensional layers held together by weak van der Waals forces, allowing adjacent sheets to take on a range of lateral displacements and orientations.
+This results in different stacking configurations, which constitute a fundamental structural variable that can be exploited to modulate the electronic and optical properties of g-C$_3$N$_4$.\cite{Bao2017Stacking-DependentSpectroscopy,Fox2024StackingApplications}
+We systematically investigated different stacking configurations of layered heptazine-based g-C$_3$N$_4$.
+
+\begin{figure*}[h!]
+  \centering
+  \includegraphics[width=6.8in]{Figures/Fig3.pdf}
+ \caption{Structural investigation of different stacking motifs of heptazine-based g-C$_3$N$_4$ in both flat and buckled models to identify the most stable configuration. The asterisk (*) and subscripts c and f refer to 180$^\circ$ rotation, corrugated, and flat models, respectively. 
+ The side views are along the $[11\bar{2}0]$ direction.} 
+  \label{fig:Fig3} 
+\end{figure*}
+
+A series of initial configurations was tested to search for the most favourable
+interlayer configurations.  In all cases we use a supercell comprising two layers of g-C$_3$N$_4$ sheets, yielding $2 \times 2$ supercells of the heptazine monomer.  These are illustrated in Fig.\ \ref{fig:Fig3}.
+
+The bulk material with no lateral shift between each layer is denoted AA stacking.
+A range of AB-type stacking patterns were generated for testing. Those we label AB$_{1}$, AB$_{2}$ and AB$_{3}$ were generated by introducing an initial lateral shift of 0.6~\text{\AA} along the $\mathbf{a}$, $-\mathbf{b}$ or $-2\mathbf{b}-\mathbf{a}$
+directions, respectively, from the AA structure for every other layer.
+Another set of 180$^\circ$-rotated AB variants was modelled, in which one flat or corrugated layer was first rotated by 180$^\circ$ relative to the perfectly aligned AA stacking. In this arrangement, the carbon atoms lie within the void regions, while only some nitrogen atoms, including the bridging nitrogen atoms (not carbon), overlap. As seen in Fig. \ref{fig:Fig3}, AB* is used to denote the structure resulting solely from this rotation, a structure that is usually denoted simply AB in other work.
+We also consider applying similar lateral shifts to those described above from this AB* structure, denoted AB*$_{1}$, AB*$_{2}$ and AB*$_{3}$. This notation was extended with an additional 
+subscript $f$ or $c$ to distinguish between structures constructed from flat or corrugated g-C$_3$N$_4$ layers, respectively. For example, AB*$_{2c}$ is a staggered model comprising corrugated layers of alternating orientation that has been initially shifted along the $\mathbf{b}$ axis.%
+\footnote{Note that, at the time of writing, the structure labelled here as $AB^*_f$ is listed as the stable structure in the Materials Project online database.}
+All structures were relaxed with the PBE-D3(BJ) functional.
+
+The optimized lattice parameters, lattice angles, and relative energies [computed using various exchange-correlation (XC) functionals] for each configuration are presented in Table \ref{tab:stacking}. 
+Consistent with previous theoretical studies, \cite{Sun2018FirstArrangement,Zuluaga2015StructuralG-C3N4}
+the flat AA$_f$ reference model (with lattice constants $a = 14.2$~\text{\AA} and $c = 6.73$~\text{\AA}) was the highest energy structure. 
+However, introducing a 180$^\circ$ rotation in the flat AB$_f$ stacking motif, denoted as AB*$_f$, lowers the energy by $\sim3.1-4.0$ eV across all the XC functionals, highlighting that changes in the stacking registry can significantly influence structural stability. In contrast, the corrugated AA$_c$ structure undergoes an in-plane contraction ($a = 6.95$~\text{\AA}) and a slight expansion along $c$ ($\sim7.18$ ~\text{\AA}) and lowers the energy by $\sim6.6$ eV. The enhanced stability of the AA$_c$ stacking configuration, relative to the previously discussed models, can be attributed to the relief of interlayer electrostatic repulsion through out-of-plane buckling.
+
+Modifying the interlayer arrangement in the corrugated bulk structure results in a further reduction in total energy, with the AB$_3c$ registry attaining the lowest relative energy (-7.81 eV at the HSE level) within this stacking series. Moreover, among the 180$^\circ$-rotated corrugated stacking series, AB*$_c$ shows moderate stability, whereas the addition of translational shifts in AB*$_3c$ motif achieves the lowest energy stacking configuration across all the XC functionals. Consistent with these structural relaxations, the corrugated stacking registries exhibit buckling heights ranging from $\sim 0.97$ to $2.84$~\AA, including $1.28$~\AA\ for AAc and $0.97$~\AA\ for AB$^{*}_{c}$, while the AB$_{1c}$--AB$_{3c}$ motifs show distortions of $\sim 1.31$--$1.42$~\AA, reaching up to $2.84$~\AA\ for AB$^{*}_{3c}$.
+
+To further investigate the interlayer coupling strength of the various stacking registries in g-C$_3$N$_4$ the interlayer binding energy is considered. This provides a quantitative measure of the cohesion between adjacent heptazine sheets. 
+
+The interlayer binding energy is calculated using Eq.\ (\ref{eq:binding}). 
+Table S2 provides details of the interlayer binding energies for all planar and corrugated stacking registries. Across these configurations, the binding energy values fall within 6--17~meV\,\AA$^{-2}$, lower than the binding/exfoliation energies of some other van der Waals materials such as graphene (22.5~meV\,\AA$^{-2}$) \cite{Huang2020UniversalCrystals} and MoS$_2$ (26.3~meV\,\AA$^{-2}$).\cite{Bian2022StrongMaterials} This shows that all g-C$_3$N$_4$ stacking registries considered here are weakly bound and readily exfoliable, yet the relative differences among them remain significant. For example, the AA$_f$ registry exhibits the lowest interlayer binding, while the AB*$_{3c}$ configuration shows the highest binding energy, indicating a more favorable alignment that enhances structural stability. This trend highlights that even minor registry shifts or corrugation patterns can modulate the weak van der Waals interactions between adjacent heptazine layers. 
+
+Overall, the results of our theoretical investigation show the profound influence of the synergistic effect of corrugation and stacking registry on determining the true ground state of layered heptazine-based g-C$_3$N$_4$. The emergence of these newly identified corrugated stacking configurations (all exhibiting $P1$ symmetry) provides a robust structural framework for systematically investigating how stacking transitions through, for example, applying mechanical shear, can modulate the electronic properties of bulk g-C$_3$N$_4$, as will be discussed in the next section. 
+
+\begin{table*}
+\centering
+\caption{Calculated lattice parameters [PBE-D3(BJ)] and relative stabilities (\(\Delta E\), eV per supercell) of heptazine stacking motifs from different XC-functionals.}
+\label{tab:stacking}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{cclcccc}
+\hline
+\textbf{Stacking motifs} &
+\textbf{Lattice constants (Å)} &
+\textbf{Lattice angles} &
+\multicolumn{4}{c}{\textbf{Relative energy, \(\Delta E\) (eV)}} \\
+ &  &  & \textbf{PBE} & \textbf{PBE-D3(BJ)} & \textbf{r\(^2\)SCAN} & \textbf{HSE06} \\
+\hline
+AA$_f$        & $a = b = 14.2, c = 6.73$ & \(\alpha=\beta=90^{\circ},\ \gamma=120^{\circ}\)     &  0.00 &  0.00 &  0.00 &  0.00 \\
+AB*$_f$    & $a = b = 14.2, c = 6.38$ & \(\alpha=\beta=90^{\circ},\ \gamma=120^{\circ}\)     & -3.13 & -4.02 & -3.81 & -3.44 \\
+AA$_c$       & $a = b = 13.9, c = 7.18$ & \(\alpha=\beta=90^{\circ},\ \gamma=119.8^{\circ}\)   & -6.61 & -6.59 & -6.91 & -6.62 \\
+AB$_{1c}$     & $a = b = 13.9, c = 6.97$ & \(\alpha=\beta=89.8^{\circ},\ \gamma=119.8^{\circ}\) & -7.68 & -7.89 & -8.16 & -7.79 \\
+AB$_{2c}$      & $a = b = 13.9, c = 6.96$ & \(\alpha=\beta=90^{\circ},\ \gamma=119.9^{\circ}\)   & -7.69 & -7.89 & -8.15 & -7.79 \\
+AB$_{3c}$      & $a = b = 13.9, c = 6.97$ & \(\alpha=\beta=90^{\circ},\ \gamma=119.9^{\circ}\)   & -7.70 & -7.90 & -8.18 & -7.81 \\
+AB*$_c$     & $a = b = 14.0, c = 7.60$ & \(\alpha=92^{\circ},\ \beta=87.9^{\circ},\ \gamma=120.1^{\circ}\) & -7.32 & -6.14 & -6.52 & -7.20 \\
+AB*$_{1c}$ & $a = b = 14.0, c = 6.90$ & \(\alpha=\beta=90^{\circ},\ \gamma=120.2^{\circ}\)   & -6.73 & -6.93 & -7.16 & -6.83 \\
+AB*$_{2c}$ & $a = b = 14.0, c = 6.91$ & \(\alpha=\beta=89.8^{\circ},\ \gamma=119.8^{\circ}\) & -6.73 & -6.92 & -7.14 & -6.82 \\
+AB*$_{3c}$ & $a = b = 13.5,   c = 6.98$ & \(\alpha=\beta=89.8^{\circ},\ \gamma=119.8^{\circ}\) & -8.87 & -9.64 & -9.96 & -9.29 \\
+\hline
+\end{tabular}
+}
+\end{table*}
+
+\subsection{Electronic structure of pristine heptazine models}
+To gain insight into how structural corrugation modulates the electronic properties of heptazine-based g-C$_3$N$_4$, we investigated the electronic band structures and partial densities of states (PDOS) of both the planar and buckled monolayers using PBE and hybrid HSE06 functionals. As depicted in Fig.\ \ref{fig:Fig4}, the computed band gaps, $E_g$, characterized by the energy difference between the valence band maximum (VBM) and conduction band minimum (CBM), for the flat monolayer are 1.25 eV (PBE) and 2.82 eV (HSE06), consistent with previously reported literature values.%
+\cite{Ahmed2022Energy-LevelCorrugation,Mortazavi2020NanoporousProperties,Gao2020CorrugationStudies,Liang2019TheStudy}
+In contrast, buckling increases the band gap of the corrugated monolayer to 1.87 eV (PBE) and 2.97 eV (HSE06). The out-of-plane displacement in the buckled structure induces angular distortions in the C-N bonds, which lower the local symmetry and reduce orbital overlap between adjacent units, thereby leading to a wider band gap. As expected, the PBE functional underestimates the band gap due to the many-electron self-interaction error, but the HSE06 hybrid functional provides a band gap closer to expectations from experiment. However, the overall electronic trend of band gap increase from the planar to the buckled configuration remains consistent across both exchange-correlation functionals, confirming that the intrinsic structural buckling is a fundamental feature that influences the electronic structure of g-C$_3$N$_4$. 
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=6.0in]{Figures/Fig4.pdf}
+ \caption{Electronic band structures and partial density of states (PDOS) of the planar and buckled heptazine-based g-C$_3$N$_4$ monolayers. 
+ Upper panels PBE, lower panels HSE06.
+ The Fermi level indicated by the dotted line is set to zero.} 
+  \label{fig:Fig4} 
+\end{figure*}
+
+
+Fig.\ \ref{fig:Fig4} also shows the corresponding PDOS of both planar and buckled configurations, revealing the contributions of each atomic orbital type to the electronic band. In the valence band (VB), the major contribution originates mainly from the N-2p lone-pair orbital, while the conduction band (CB) is composed of the hybridization of C-2p and N-2p states. Moreover, both the band structure and PDOS of the buckled monolayer reveal an upward shift of the conduction-band edge compared to the planar model, resulting in a larger band gap (although we note that the Fermi energy is not defined meaningfully
+in calculations of this type). 
+Our observations are in good agreement with previous reports.\cite{Mortazavi2025AMonolayers,He2017EnhancementComposites,Zhu2018First-principleReview}
+
+We now shift our attention to examining how different stacking motifs of the heptazine units influence the electronic properties of bulk g-C$_3$N$_4$. 
+The layered structure of 3D-g-C$_3$N$_4$ introduces additional band dispersion along the out-of-plane direction, resulting in a narrower band gap compared to the isolated monolayer. For example, comparing the band structure plots in Figs.\ \ref{fig:Fig4} and \ref{fig:Fig5}, all the bulk stacking configurations exhibit smaller band gaps than the monolayer. For the flat models (at the PBE level), the band gap decreases from 1.25 eV in the monolayer to 0.59 eV (AA$_f$) and 1.03 eV (AB*$_f$), and from 2.82 eV to 1.93 eV (AA$_f$) and 2.06 eV (AB*$_f$) at the HSE06 level. A similar trend is also observed for buckled models, where the corresponding band gaps reduce from 1.87 eV in the monolayer to 1.59 eV (AA$_c$) and 1.60 eV (AB*$_c$) at the PBE level, and from 2.97 eV to 2.66 eV (AA$_c$) and 2.65 eV (AB*$_c$) using the HSE06 hybrid functional. 
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=6.5in]{Figures/Fig5.pdf}
+ \caption{Electronic band structures of selected planar and buckled heptazine-based bulk g-C$_3$N$_4$ using two different XC functionals.
+ The structures are illustrated to the sides.} 
+  \label{fig:Fig5} 
+\end{figure*}
+
+Next, we extend our analysis to compare how different stacking arrangements (in the flat and corrugated models) influence the electronic response of bulk g-C$_3$N$_4$. It can be seen from Figs.\ \ref{fig:Fig5} and S1 that introducing a 180$^\circ$ rotation in the AA stacking registry, together with the presence of buckling in either stacking configuration, modulates the bulk electronic properties. While rotating the flat AA stacking motif moderately widens the band gap from 1.93 eV to 2.06 eV (HSE06), the introduction of buckling in the AA stacking (denoted as AA$_c$), even without rotation, results in a wider band gap of 2.66 eV (HSE06), which is in close agreement with experimental observations (2.7 eV).\cite{Chen2024SynthesisApplications} Moreover, applying a 180$^\circ$ rotation to the buckled AA stacking (AB*$_c$) induces minimal changes in the band gap, indicating that structural buckling exerts a more dominant role in determining interlayer electronic coupling compared with rotational misalignment alone. These findings suggest that 
+lateral translation or combined rotation-translation of the layers,
+for example by applying shear stress to the material,
+could serve as a viable strategy to tune the bulk electronic properties of van der Waals layered g-C$_3$N$_4$. As shown in Fig. S2, the electronic response of the different corrugated stackings modulates the band dispersion and PDOS of bulk g-C$_3$N$_4$.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=6.2in]{Figures/Fig6.pdf}
+ \caption{Relative band-edge positions and band gap variation (@HSE06 level) across different stacking configurations of heptazine-based g-C$_3$N$_4$. The Fermi level, E$_f$, assumed by Vasp is set to zero. The asterisk (*) and subscripts 'f' and 'c' refer to 180$^\circ$ rotation, flat and corrugated models, respectively.} 
+  \label{fig:Fig6} 
+\end{figure*}
+
+A more detailed comparative analysis of the band gaps in Fig.\ \ref{fig:Fig6} quantifies the effect of these corrugated stacking variants. Relative to the unshifted corrugated models (i.e.\ AA$_c$, AB*$_c$), lateral translation increases the band gap by about 6\%. In contrast, the combined rotation–translation raises it by roughly 15\%, with the most stable structure, AB*$_{3c}$, exhibiting the widest band gap (3.05 eV) in these stacking series. Our findings reveal that while stacking of flat layers reduces the band gap, corrugation of stacked layers both enhances the thermodynamic stability and yields larger band gaps, consistent with the postulation of Im et al. \cite{Im2023StructureSimulations}. Accordingly, the band gap modulation approach demonstrated in this work may be extended to other two-dimensional materials to control their electronic properties, possibly including charge transport and photoresponse characteristics.
+
+\subsection{Dopant roles in monolayer and bulk g-C$_3$N$_4$}
+To investigate the influence of dopant on the 2D planar and 2D/3D buckled structural motifs of g-C$_3$N$_4$---and more importantly, how this is affected by the variations in structure discussed above---we select a representative non-metal dopant (P) and a metal dopant (Ni). Starting with the 2D buckled monolayer, we examined all possible substitutional P sites at C1-C6 and N1-N7 (Fig.\ \ref{fig:Fig2}), as well as the Ni interstitial site, using the defect formation energy expressions defined in Eqs.\ \ref{eq:formation_energy_sub} and \ref{eq:formation_energy_int}. Our calculations reveal that among the C dopant sites, P@C6 is the most thermodynamically favourable configuration, with a formation energy of 0.19 eV (see Figs. \ref{fig:Fig7} and S5). The P@N sites require significantly higher energies (0.60–1.90 eV, Fig. S6). 
+
+ \begin{figure*}
+  \centering
+  \includegraphics[width=6.6in]{Figures/Fig7.pdf}
+ \caption{Structural configurations and formation energies of P and Ni dopants in planar and corrugated monolayer (2D) and bulk (3D) g-C$_3$N$_4$.} 
+  \label{fig:Fig7} 
+\end{figure*}
+
+The P@C6 site was used as a model defect to examine how dopant accommodation varies with buckling and stacking structure, comparing the 2D-planar and buckled monolayers with the buckled 3D-stacked g-C$_3$N$_4$. Fig. \ref{fig:Fig7} shows that the formation energy changes dramatically from the planar sheet (1.64 eV) to the buckled monolayer (0.19 eV), whereas the 3D-buckled structure exhibits an intermediate stability (0.67 eV). The variation in formation energies, despite using the same dopant sites (P@C6) across all structures, indicates that each host lattice accommodates the dopant differently. In the planar monolayer (Fig.\ \ref{fig:Fig7}a), the P dopant is constrained by the in-plane symmetry of the lattice, resulting in a P-N bond length of 1.59~\text{\AA}, longer than the intrinsic C-N bond length of 1.33~\text{\AA}, giving rise to local strain. In contrast, the buckled monolayer alleviates this strain by allowing the dopant to relax out of plane, as reflected by the P–N bond length (1.63–1.64 ~\text{\AA}, Fig.\ \ref{fig:Fig7}b). 
+In the 3D-buckled structure (Fig.\ \ref{fig:Fig7}c), the local bonding geometry around the P dopant is nearly identical to that of the buckled monolayer, with comparable P–N distances. However, the difference in the formation energies between the 2D buckled monolayer and the 3D buckled lattice can be attributed to the long-range interlayer interactions in the bulk and not from the local bonding environment. Similarly for the Ni dopant at the same interstitial sites across the planar, buckled monolayer, and 3D-buckled structures (Fig.\ \ref{fig:Fig7}d-f), the formation energies vary with 1.63 eV for planar 2D, 1.72 eV for buckled 2D, and 1.35 eV for buckled 3D.  The variation in dopant energetics between P and Ni at identical sites across flat, buckled, and layered g-C$_3$N$_4$ structures demonstrates that accurate theoretical modelling of g-C$_3$N$_4$ must account for intrinsic structural stability as well as the influence of interlayer coupling. 
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=7.0in]{Figures/Fig8.pdf}
+ \caption{Spin-polarized projected density of states (PDOS) of P- and Ni-doped g-C$_3$N$_4$ in planar 2D, buckled 2D, and buckled 3D configurations.} 
+  \label{fig:Fig8} 
+\end{figure*}
+
+The buckling and stacking structure influenced the effect of dopants on the calculated electronic structure.
+Figs. \ref{fig:Fig8}a--c and S8a--c show that doping with P does not significantly alter the bulk band structure of the underlying g-C$_3$N$_4$ structure.  
+The significant change to the electronic structure is the introduction of mid-gap states associated with the P dopant atom.  For the neutral systems modelled here, a single electron occupies one of these states, with the opposite spin state remaining unoccupied.  Clearly, such mid-gap states could be expected to have a significant effect on the photocatalytic properties of doped g-C$_3$N$_4$.
+
+The position of these states within the gap, and the separation between the occupied and unoccupied states, are strongly affected by the modelled structure.  The planar 2D structure yields a small separation between the occupied and unoccupied states, with both lying close to the conduction band of g-C$_3$N$_4$.  Allowing the monolayer to buckle out of the plane separates the occupied and unoccupied states by around 1~eV, with the occupied state lying close to the valance band.  Stacking g-C$_3$N$_4$ into a bulk structure causes both mid gap states to move higher in the band gap.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=6.5in]{Figures/Fig9.pdf}
+ \caption{Charge density difference (CDD) distributions and Bader charge variations ($\Delta$q) of P- and Ni-doped g-C$_3$N$_4$ in planar 2D, buckled 2D, and buckled 3D structures. The yellow and cyan regions denote electron accumulation and depletion, respectively. The isosurface is taken as 0.003 e/bohr$^3$.} 
+  \label{fig:Fig9} 
+\end{figure*}
+
+Charge density difference (CDD) and Bader charge transfer 
+calculations for these P-doped structures are represented in Fig.\ \ref{fig:Fig9}a--c.  These again demonstrate significant differences between the different
+g-C$_3$N$_4$ parent structures, with significant differences between the amount of charge transferred to the g-C$_3$N$_4$ structure depending on whether the doped parent is planar, buckled, or in bulk.
+
+For g-C$_3$N$_4$ doped with interstitial Ni, the parent band structure was again largely unchanged from the undoped material's band structure for the monolayer cases (Figs.\ \ref{fig:Fig8}d,e and S8d,e).  Occupied Ni 4p states were introduced at the top of the gap for the flat structure, with Ni 3d lying at the bottom of the gap.  The wider gap of the more stable buckled monolayer again presented occupied Ni 4p states at the top of the gap, but exposed Ni 3d states lying in the parent material band gap at slightly destabilized energies.  Introducing a Ni dopant to the bulk AB$_{3c}$ structure (Figs.\ \ref{fig:Fig8}f and S8f) opened the parent material band gap to almost 2 eV, with occupied Ni 3d states again appearing in the lower half of the parent gap.  In this case, occupied Ni 4p states were stabalised to similar energies to the Ni 3d states, maintaining a nominal intrinsic band gap of around 0.7~eV.
+Fig.\ \ref{fig:Fig9}d--f indicates that the electron transfer from the Ni dopant was similar in the planar 2D and buckled bulk cases but reduced by more than 20\% when the monolayer was allowed to buckle to a more stable configuration.
+
+\subsection{Experimental verification}
+To this point, this paper, along with others, presents a clear case based on 
+DFT that the ``graphitic'' layers of g-C$_3$N$_4$ are not in fact flat planes like graphite, but rather strongly buckled structures.  Although modern DFT approaches are reliable, sceptics may question whether this behaviour is an artefact of the sophistication of the exchange-correlation functional, the treatment of dispersion, or other deficiencies of the theory.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=3.5in]{Figures/Fig10.pdf}
+ \caption{%
+(a,b) Experimental X-ray total scattering $G(r)$ (black) compared with planar and buckled AB-stacked g-C$_3$N$_4$ models (red), showing poor agreement for the planar structure ($R_\mathrm{w}=51.49\%$) and markedly improved agreement for the buckled AB model ($R_\mathrm{w}=15.80\%$); dashed curves denote C--C, C--N, and N--N partial correlations.
+(c) Ball-and-stick representation of the RMC-refined g-C$_3$N$_4$ structure fitted to X-ray total scattering data, showing part of the 10\,000-atom supercell viewed along $[11\bar{2}0]$.
+(d) Comparison of the experimental $G(r)$ (black) with the final RMC model (red).%
+}
+  \label{fig:Fig10} 
+\end{figure}
+
+As a final independent piece of evidence that the layers of g-C$_3$N$_4$ are indeed buckled away from planarity, we present some experimental evidence.  X-ray total scattering data for g-C$_3$N$_4$ was simulated via reverse Monte Carlo calculation with the RMCProfile code.\cite{Tucker2007RMCProfile:Materials, Liu2025HarnessingCapacitors}
+During the RMC run, the atoms of g-C$_3$N$_4$ moved consistently away from planar structures in order to give a good fit to the X-ray scattering data, which could not be obtained from a structure comprised of flat planes of atoms.  A side view of this real-space structure is shown in Fig.\ \ref{fig:Fig10}.  
+
+The out-of-plane displacements generated by the RMC simulation are similar in magnitude to those exhibited by our DFT structures.  Note that the RMC structures maintained atomic positions consistent with the structure as a heptazine polymer throughout.
+Further details of these and related RMC simulations will be presented in a related paper. \cite{Adnan2026atomicallycoordinatednonmetal}
+
+
+
